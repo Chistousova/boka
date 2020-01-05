@@ -1,0 +1,397 @@
+@font-face {
+  font-family: '7fonts.ru_subway';
+  src: url('../fonts/7fonts.ru_subway.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Subway';
+  src: url('../fonts/Subway.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantGardeCTT';
+    font-style: normal;
+    font-weight: 400;
+    src: local('AvantGardeCTT'), local('AvantGardeCTT-Regular'),
+        url(http://allfont.ru/cache/fonts/avantgardectt_caeaf746fc19648d748ca8d04dc796eb.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/avantgardectt_caeaf746fc19648d748ca8d04dc796eb.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "FranklinGothic-Demi";
+  src: 
+  url("../fonts/FranklinGothic-Demi.woff") format("woff"),
+  url("../fonts/FranklinGothic-Demi.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'olivier';
+  src: url('../fonts/olivier.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'olivier_01';
+  src: url('../fonts/olivier_01.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AGAvantGardeCyrBook';
+  src: url('AGAvantGardeCyrBook.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'agagcb__';
+  src: url('agagcb__.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+	width: 1560px;
+	margin: 0 auto;
+}
+
+header {
+	min-height: 1000px;
+	background-image: url(../img/header-fonts.jpg);
+	background-color: #004156;
+}
+
+.header-text {
+	margin-top: 174px;
+}
+
+
+.header-text span {
+	font-family: Subway, Arial, sans-serif;
+	font-size: 60px;
+	color: rgb(255, 255, 255);
+  	line-height: 1.2;
+  	margin: 60px 0 0 861px;
+    letter-spacing: 25px;
+}
+
+.header-text h1 {
+	font-family: AvantGardeCTT, Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin: 12px 0 60px 707px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+    font-weight: 100;
+
+}
+
+
+.logo {
+	font-family: "FranklinGothic-Demi", Arial, sans-serif;
+	font-size: 30px;
+  	line-height: 1.2;
+  	display: flex;
+  	padding: 109px 0 0 211px;;
+  	position: relative;
+}
+
+.own-logo {
+	color: #e64c65;
+	position: absolute;
+	top: 126px;
+    left: 274px;
+    letter-spacing: 12px;
+}
+
+.logo-first-letter {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	top: 125px;
+    left: 244px;
+}
+
+.language-navigation {
+	padding: 110px 224px 0 0;
+}
+
+.language-navigation ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.language-navigation li {
+	list-style: none;
+	font-size: 20px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #11a8ab;
+  line-height: 1.2;
+  padding-right: 20px;
+}
+
+.language-navigation li:hover {
+color: white;
+
+}
+
+.language-navigation li:last-child {
+	padding-right: 0;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.discover {
+	font-size: 30px;
+  font-family: Roboto, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 17px 28px;
+  letter-spacing: 12px;
+  margin-top: 65px;
+  border-radius: 10px;
+  font-weight: 400;
+  box-sizing: border-box;
+  width: 261px;
+}
+
+.discover, 
+.discover:active, 
+.discover:focus {
+  outline: none;
+}
+
+.discover:hover {
+  color: #11a8ab;
+}
+
+
+.started {
+	font-family: olivier, Arial, sans-serif;
+  font-size: 80px;
+  color: rgb(31, 37, 61);
+  line-height: 1.2;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 274px;
+  margin-bottom: 76px;
+  letter-spacing: 8px;
+  margin-left: 64px;
+  outline: none;
+}
+
+.registration input[type="radio"] {
+	display: none;
+}
+
+.registration input:checked + label {
+background-color: #1f253d;
+color: white;
+border:1px solid rgb(31, 37, 61);
+border-radius: 10px;
+}
+
+.registration input + label {
+background-color: white;
+color: #1f253d;
+border:1px solid rgb(31, 37, 61);
+border-radius: 10px;
+}
+
+
+ .input-text {
+	font-size: 30px;
+  font-family: Roboto, Arial, sans-serif;
+  color: rgb(31, 37, 61);
+  line-height: 1.2;
+  padding-left: 406px;
+  margin-top: 15px;
+ 
+}
+
+.men-women {
+	font-family: Roboto, Arial, sans-serif;
+	color: rgb(31, 37, 61);
+  line-height: 1.2;
+  border: 1px solid #1f253d;
+  padding-top: 18px;
+  font-size: 25px;
+  width: 197px;
+  box-sizing: border-box;
+  margin-right: 97px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 68px;
+}
+
+.registration-wrapper {
+	width: 100%;
+	display: flex;
+}
+
+.button-form, .register-agree-wrapper, .discover-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.input-iam {
+	margin-right: 133px;
+}
+
+.input-lookong-for {
+	margin-right: 34px;
+}
+
+.join {
+	 width: 296px;
+    min-height: 83px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    color: white;
+    line-height: 1.2;
+    font-size: 30px;
+    background-color: rgb(31, 37, 61);
+    border-radius: 10px;
+    margin-top: 117px;
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+
+.join:hover {
+  color: #11a8ab;
+}
+
+.join, 
+.join:active, 
+.join:focus {
+    outline: none;
+}
+
+.email, .password {
+	font-size: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(31, 37, 61);
+    line-height: 1.2;
+    margin-left: 408px;
+    margin-top: 43px;
+    display: inline-block;
+    letter-spacing: 3px;
+    
+}
+
+.registration input[type="e-mail"], .registration input[type="password"] {
+	font-family: Roboto, Arial, sans-serif;
+    color: rgb(31, 37, 61);
+    line-height: 1.2;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: none;
+    margin-top: 42px;
+    outline: none;
+}
+
+.email {
+	margin-right: 106px;
+}
+
+.password {
+	margin-right: 40px;
+}
+
+.register-agree {
+	font-size: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(31, 37, 61);
+    line-height: 1.2;
+    width: 611px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.registration {
+	margin-bottom: 263px;
+}
+
+
+.foto-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	vertical-align: top;
+} 
+
+.tips-for-first {
+	font-family: AGAvantGardeCyrBook, Arial, sans-serif;
+	font-size: 50px;
+  	color: rgb(31, 37, 61);
+  	text-transform: uppercase;
+  	line-height: 1.2;
+  	display: block;
+    letter-spacing: 0.8px;
+    margin-top: 163px;
+    width: 100%;
+    text-align: center;
+}
+
+.dating-text, .copyright {
+	font-size: 20px;
+  	font-family: Roboto, Arial, sans-serif;
+  	color: rgb(31, 37, 61);
+  	line-height: 1.2;
+  	letter-spacing: 1.5px;
+}
+
+.dating-text {
+    width: 74%;
+    margin-left: 200px;
+    margin-top: 10px;
+	margin-bottom: 245px;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+}
+
+footer {
+margin-top: 65px;
+}
+
+.footer-menu ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-menu li {
+	list-style: none;
+	font-size: 25px;
+  font-family: Roboto, Arial, sans-serif;
+  color: rgb(31, 37, 61);
+
+}
+
+.footer-menu li:hover {
+  border-bottom: 7px solid rgb(31, 37, 61);
+  padding-bottom: 12px;
+}
+
+.footer-menu li:first-child {
+	margin-left:20px;
+}

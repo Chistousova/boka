@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>	
+		<meta charset="utf-8">
+	    <title>Boka</title>
+	    <link href="css/normalize.css" rel="stylesheet">
+	    <link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="header-container">
+			<div class="logo"><svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="68px" height="96px">
+<image  x="0px" y="0px" width="68px" height="96px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABgCAMAAACT8CSgAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAClFBMVEXlS2TmTGTlTGTmTGXmTGTlS2TmTGTlTGTlS2TlS2TmTGTlTGTmTGTlTGTmTGTmTGTlS2TmTGTlTGTlS2TmTGTlTGTlS2TlTGTmTGTlTGTlTGTmTGTlS2TmTGTlTGTlS2TlS2TlTGTmTGTmTGTmTGTlS2TlTGTlTGTlTGTlS2TlTGTlTGTmTGTlTGTmTGTmTGTlTGTlS2TlTGTlTGTlS2TlTGTlS2TlTGTmTGXlTGTlS2TmTGTlTGTlTGTmTGTlTGTlS2TlS2TmTGTlS2TlS2TlTGTlTGTlTGTmTGTmTGTlTGTlTGTlTGTlTGTmTGTlS2TlS2TlS2TmTGTlTGTlS2TlS2TlTGTmTGTlS2TmTGXlS2TmTGTlTGTlTGTlTGTmTGTmTGTlTGTlS2TlTGTlTGTlTGTmTGTlTGTlTGTmTGTlTGTlS2TmTGTlS2TlS2TlTGTmTGTlTGTmTGTlTGTmTGTmTGXmTGXlS2TmTGTlS2TmTGXlS2TlTGTlS2TmTGTmTGTmTGTlTGTlTGTlTGTmTGTlS2TlS2TlTGTlS2TmTGTlS2TlTGTlTGTmTGTlTGTlS2TlTGTlTGTlTGTmTGTlTGTmTGTlS2TlTGTlS2TlTGTmTGTlTGTlTGTlTGTlTGTlS2TlTGTlS2TlS2TlS2TmTGXlS2TlTGTlTGTlTGTlTGTmTGTlTGTlTGTlS2TlTGTlS2TlTGTlTGTlS2TlTGTlTGTlS2TmTGTlTGTlTGTlS2TmTGXlTGTlS2TmTGTlTGTlTGTmTGTmTGTmTGXlS2TmTGTmTGTmTGXmTGTmTGTlTGTlS2TlTGTlS2TlS2TlS2TmTGTmTGTlTGTlTGTlS2TlS2TlS2TlS2TlS2TlTGTmTGTmTGX///+WhxGBAAAA13RSTlMAAAAAChERERIiIiIrMzNERExVVVVlZmZmbXd3d4aIiI6Zmaaqqqquu7vHzM/d3eju7vClDt85/H4DxCDvWaIN3Tf7ewPBH1efDNs1+nm/He1UnAvZ+QK9+mkb7OtAUdEhrQrX/oABMvNTdC+7FRnsmAVOVpYa1bcw+GdxI7jE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" />
+</svg>
+<div class="logo-text">
+<span class="logo-first-letter">B</span> <span class="own-logo">oka</span>
+</div></div>
+			<nav class="language-navigation">
+				<ul>
+					<li>English</li>
+					<li>Bangla</li>
+					<li>Arabic </li>
+					<li>Spanish</li>
+				</ul>
+			</nav>
+		</div>
+			<div class="header-text">
+
+				<span>boka!</span>
+				<h1>A great dating place</h1>
+				<div class="discover-wrapper">
+				<button class="discover">Discover</button>
+			</div>
+			</div>
+		</header>	
+		<main>
+			<section class="registration">
+				<span class="started">Get Started</span>
+				<form class="simple-registration">
+					<div class="registration-wrapper">
+						<span class="input-text input-iam">I am</span>
+						<input type="radio" name="gender" id="men" checked><label for="men" class="men-women"> Men </label>
+						<input type="radio" name="gender" id="women"><label for="women" class="men-women"> Women </label>
+						</div>
+					<div class="registration-wrapper">
+						<span class="input-text input-lookong-for">Lookong for</span>
+						<input type="radio" name="gender-search" id="search-men" checked><label class="men-women" for="search-men">Men </label>
+						<input type="radio" name="gender-search" id="search-women"><label class="men-women" for="search-women">Women</label>
+					</div>
+					<div class="registration-wrapper">
+					<label for="e-mail" class="email">email</label>
+					<input type="e-mail" id="e-mail" placeholder="wrobi1267@gmail.com"> 
+				</div>
+				<div class="registration-wrapper">
+					<label for="password" class="password">Password</label>
+					<input type="password" id="password" placeholder="********"> 
+				</div>
+				<div class="button-form">
+					<button class="join">Join now</button>	
+				</div>
+				<div class="register-agree-wrapper">
+				<p class="register-agree">By registering you agree to the Terms and Conditions or Privacy.<br> You will receive all communication from Boka directly in your mail box. </p>
+			</div>
+				</form>
+					
+				</section>
+				<section class="foto-galary">
+					<div class="foto-wrapper">
+					<img src="img/Layer7.jpg" width="500px"; height="500px";>
+					<img src="img/Layer8.jpg">
+				</div>
+				<div class="foto-wrapper">
+					<img src="img/Layer6.jpg" width="200px"; height="300px";>
+					<img src="img/Layer4.jpg">
+					<img src="img/Layer5.jpg" width="200px"; height="300px";>
+				</div>
+				</section>
+				<div>
+					<span class="tips-for-first">Tips for first Dating</span>
+					<p class="dating-text">
+					Dating is sometimes harder than it should be. After countless dinners and drinks, it can be tempting to throw in the towel and resign to nights of forever watching Netflix alone inyo-ur bed. But when dating is done right, it can be amazing, and those great dates often lead to great relationships. So consider this your dating playbook, with all the information you need to survive the first date and make sure there's a second one..
+					</p>
+					<p class="copyright">Copyright © 2017 Boka. All rights reserved.</p>
+				</div>
+		</main>
+		<footer>
+			<nav class="footer-menu">
+				<ul>
+					<li>About us</li>
+					<li>Terms</li>
+					<li>Privacy</li>
+					<li>Customer Care</li>
+					<li>Contact us</li>
+					<li>Press</li>
+				</ul>
+			</nav>
+		</footer>
+	</body>	
+</html>

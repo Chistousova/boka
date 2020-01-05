@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'AGAvantGardeCyrBook';
+  src: url('AGAvantGardeCyrBook.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'agagcb__';
+  src: url('agagcb__.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
